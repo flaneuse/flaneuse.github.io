@@ -6,7 +6,7 @@ nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
-    font-weight: 300;
+    font-weight: 200;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -17,7 +17,7 @@ a {
     color: #999;
 }
 a:hover {
-    text-decoration: underline;
+    color: #253494;
 }
 h1 {
     font-weight: 500;
@@ -26,7 +26,7 @@ h1 {
 }
 p {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-weight: 400;
+    font-weight: 300;
     font=size = 1em;
     line-height: 1.4em;
     color: #333;
