@@ -1,7 +1,0 @@
-# Site settings
-title: Laura D. Hughes
-description: scientist, data scientist, visualizer
-keywords: Laura Hughes, data science, data visualization
-author: Laura Hughes
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
