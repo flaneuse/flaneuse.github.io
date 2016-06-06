@@ -4,6 +4,7 @@ title:  "Stata Cheat Sheet: analysis"
 date:   2016-06-04 12:00:00
 categories: Stata cheatsheet
 img: "/img/StataCheatSheet_analysis_2016_June.png"
+icon: "/img/stata_analysis_icon.png"
 co-authors: Tim Essam
 link: "http://geocenter.github.io/StataTraining/pdf/StataCheatSheet_Analysis.pdf"
 ---

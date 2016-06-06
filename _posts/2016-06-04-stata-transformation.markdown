@@ -4,6 +4,7 @@ title:  "Stata Cheat Sheet: transformation"
 date:   2016-06-04 20:00:00
 categories: Stata cheatsheet
 img: "/img/StataCheatsheet_processing_June_2016_Transformation.png"
+icon: "/img/stata_transformation_icon.png"
 co-authors: Tim Essam
 link: "http://geocenter.github.io/StataTraining/pdf/StataCheatsheet_transformation.pdf"
 ---
