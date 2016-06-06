@@ -8,7 +8,7 @@ co-authors: Tim Essam
 link: "http://geocenter.github.io/StataTraining/pdf/StataCheatsheet_processing.pdf"
 ---
 
-Cheat sheet on the basics of processing in [Stata 14](http://www.stata.com).  Includes:
+Cheat sheet on basic, fundamental processing commands in [Stata 14](http://www.stata.com).  Includes:
 
 * basic Stata syntax for all functions
 * basic math and logic operations
