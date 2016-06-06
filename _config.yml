@@ -1,6 +1,6 @@
 # Site settings
 title: Laura D. Hughes
-email: laura.d.hughes@gmail.com
+email: laura.d.hughes at gmail.com
 description: data scientist • scientist • visualizer
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://lauradhughes.com" # the base hostname & protocol for your site
