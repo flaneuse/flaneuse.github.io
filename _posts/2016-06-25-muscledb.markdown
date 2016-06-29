@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "MuscleDB"
+title:  "MuscleDB: gene expression database"
 date:   2016-06-25 12:00:00
 categories: genetics
 img: "/img/muscledb.png"
