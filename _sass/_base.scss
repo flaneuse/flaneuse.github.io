@@ -1,15 +1,15 @@
 /**
  * Reset some basic elements
  */
-h1, h2, h3, h4, h5, h6,
+h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
 }
 
-body{
-    margin: 10;
+h1, body{
+    margin-bottom: 10;
     padding: 0;
 }
 
