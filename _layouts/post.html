@@ -21,11 +21,13 @@ layout: default
     </div>
 
     {% if page.img %}
-    <div class="post-img">
-      <a href="{{ page.link | prepend: site.baseurl }}">
-        <img src="{{ page.img }}"></img>
-      </a>
-    </div>
+      {% for image in page.img %}
+        <div class="post-img">
+          <a href="{{ page.link | prepend: site.baseurl }}">
+            <img src="{{ image }}"></img>
+          </a>
+        </div>
+      {% endfor %}
     {% endif %}
 
   </article>
