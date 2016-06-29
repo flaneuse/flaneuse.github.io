@@ -8,9 +8,15 @@ $tim-link: "https://www.linkedin.com/in/timessam";
 
 // Color variables
 $base-font-family: 'Lato', Helvetica, Arial, sans-serif;
+$base-font-weight: 300;
+$bold-font-weight: 400;
+
 $base-font-size:   18px;
-$base-font-weight: 100;
+$smaller-font-size:  $base-font-size * 0.75;
 $small-font-size:  $base-font-size * 0.875;
+$large-font-size: $base-font-size * 1.25;
+$largest-font-size: $base-font-size * 1.75;
+
 $base-line-height: 1.5;
 $base-header-height: 1.1;
 

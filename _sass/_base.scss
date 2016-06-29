@@ -38,6 +38,7 @@ p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
     margin-bottom: 0;
+    color: $text-color;
 }
 
 
@@ -102,8 +103,8 @@ a {
     }
 
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        color: darken($brand-color, 25%);
+        text-decoration: none;
     }
 }
 

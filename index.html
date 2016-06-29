@@ -16,7 +16,7 @@ layout: default
     {% for post in site.posts %}
     <li class="gallery">
       <!-- date -->
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
 
       <!-- title/link -->
       <h2>
@@ -29,7 +29,7 @@ layout: default
 
         <!-- co-authors -->
         {% if post.co-authors %}
-        <span class="username">with {{ post.co-authors }}</span>
+        <span class="post-coauthor">with {{ post.co-authors }}</span>
         {% endif %}
 
       </li>
