@@ -10,6 +10,8 @@ Personal portfolio of Laura D. Hughes.  All work is my own, except for where col
 
 #### Frequent Collaborators
 * [Tim Essam](https://www.linkedin.com/in/timessam)
+* [Michael E. Hughes lab](http://openwetware.org/wiki/HughesLab) (UMSL)
+* [Karyn Esser lab](http://www.uky.edu/~kaesse2/lab_web_7_2007/SMBL/) (Univ. of Kentucky School of Medicine)
 
 <br>
 <hr>
