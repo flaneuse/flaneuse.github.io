@@ -191,6 +191,10 @@
     }
   }
 
+  .gallery > h2 {
+    height: 50px;
+  }
+
 
 
 
@@ -249,7 +253,7 @@
   .post-coauthor {
     font-size: $smaller-font-size;
     color: $grey-color;
-    line-height: 1;
+    line-height: 1.1;
   }
 
   .post-descrip {
