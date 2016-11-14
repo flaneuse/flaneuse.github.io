@@ -8,6 +8,15 @@
     ga('create', 'UA-78814953-1', 'auto');
     ga('send', 'pageview');
 
+    var trackOutboundLink = function(url) {
+      ga("send", "event", "outbound", url, {
+        "transport": "beacon",
+        "hitCallback": function() {
+          //document.location = url;
+        }
+      });
+    };
+
   </script>
 
   <div class="wrapper">
