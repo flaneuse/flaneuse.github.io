@@ -25,13 +25,19 @@ layout: default
 
     {% if page.img %}
     {% for image in site.static_files %}
-        {% if image.path contains page.img %}
-                <div class="post-img">
-                    <a href="{{ image.path | prepend: site.baseurl }}"
-                    onclick='trackOutboundLink("{{ image.path }}"'>
-            <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
-          </a></div>
-        {% endif %}
+    {% if image.path contains page.img %}
+    <div class="post-img">
+      {% if page.link %}
+      <a href="{{ page.link  | prepend: site.baseurl }}"
+      target = "_blank"
+      onclick="trackOutboundLink('{{ image.path }}'">
+      {% else %}
+      <a href="{{ image.path | prepend: site.baseurl }}"
+      onclick="trackOutboundLink('{{ image.path }}'">
+      {% endif %}
+      <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+    </a></div>
+    {% endif %}
     {% endfor %}
     {% endif %}
 

@@ -7,7 +7,6 @@ categories: Stata cheatsheet
 img: "/img/cheatsheets/"
 icon: "/img/stata_processing_icon.png"
 co-authors: Tim Essam
-link: "http://geocenter.github.io/StataTraining/pdf/StataCheatsheet_processing.pdf"
 ---
 
 
