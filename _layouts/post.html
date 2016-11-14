@@ -27,7 +27,7 @@ layout: default
     {% for image in site.static_files %}
         {% if image.path contains page.img %}
                 <div class="post-img">
-                    <a href="{{ page.link | prepend: site.baseurl }}">
+                    <a href="{{ image.path | prepend: site.baseurl }}">
             <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
           </a></div>
         {% endif %}
