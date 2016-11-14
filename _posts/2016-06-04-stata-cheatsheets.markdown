@@ -1,15 +1,17 @@
 ---
 layout: post
 title:  "Stata Cheat Sheets: analysis and visualization"
+summary: "Cheat sheets on data wrangling, analysis, and visualization in <a href='http://www.stata.com' target='_blank'>Stata 14</a>"
 date:   2016-06-04 23:00:00
 categories: Stata cheatsheet
-img: "/img/StataCheatsheet_processing_June_2016_Processing.png"
+img: "/img/cheatsheets/"
 icon: "/img/stata_processing_icon.png"
 co-authors: Tim Essam
 link: "http://geocenter.github.io/StataTraining/pdf/StataCheatsheet_processing.pdf"
 ---
 
-Cheat sheets on data wrangling, analysis, and visualization in [Stata 14](http://www.stata.com).  Includes:
+
+Includes:
 
 <br>
 
