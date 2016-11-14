@@ -180,8 +180,13 @@
     float: left;
     vertical-align: middle;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 20px;
+
+    @media (max-width: 850px) {
+      width: 50%
+    }
   }
+
 
 
 
@@ -246,7 +251,7 @@
   .post-link {
     display: block;
     font-size: $large-font-size;
-    font-weight: $bold-font-weight;
+    font-weight: $base-font-weight;
     line-height: $base-header-height;
     padding-bottom: 3px;
   }
