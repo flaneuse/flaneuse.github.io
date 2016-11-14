@@ -28,7 +28,7 @@ layout: default
         {% if image.path contains page.img %}
                 <div class="post-img">
                     <a href="{{ image.path | prepend: site.baseurl }}"
-                    onclick='trackOutboundLink({{ image.path }}'>
+                    onclick='trackOutboundLink("{{ image.path }}"'>
             <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
           </a></div>
         {% endif %}
