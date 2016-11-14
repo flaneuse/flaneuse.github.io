@@ -5,11 +5,14 @@ layout: default
 
   <header class="post-header">
     <h2 class="post-title">{{ page.title }}</h2>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
 
     <!-- co-authors -->
     {% if page.co-authors %}
     <span class="username">with {{ page.co-authors }}</span>
+    {% endif %}
+
+    {% if page.summary %}
+    <div class="post-descrip">{{ page.summary }}</div>
     {% endif %}
 
   </header>
@@ -21,13 +24,14 @@ layout: default
     </div>
 
     {% if page.img %}
-      {% for image in page.img %}
-        <div class="post-img">
-          <a href="{{ page.link | prepend: site.baseurl }}">
-            <img src="{{ image }}"></img>
-          </a>
-        </div>
-      {% endfor %}
+    {% for image in site.static_files %}
+        {% if image.path contains page.img %}
+                <div class="post-img">
+                    <a href="{{ page.link | prepend: site.baseurl }}">
+            <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+          </a></div>
+        {% endif %}
+    {% endfor %}
     {% endif %}
 
   </article>
