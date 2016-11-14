@@ -18,7 +18,7 @@ The [Hughes](http://openwetware.org/wiki/HughesLab) (UMSL) and [Esser](http://ww
 
 In this repository, we’re developing a web-based platform to explore, visualize, and share these data build on a [Shiny dashboard](http://shiny.rstudio.com/).
 
-* If you've noticed any  technical errors or enhancements to this webpage, please [submit an issue](https://github.com/flaneuse/muscle-transcriptome/issues).
+* If you've noticed any technical errors or enhancements to this webpage, please [submit an issue](https://github.com/flaneuse/muscle-transcriptome/issues).
 
 * If you want to help us understand which muscle types would be most useful to you,
 please vote for your preferred tissues [here](https://docs.google.com/forms/d/1iL9V7HPm5CRekPrkrPmLciZmNWK-g09elIYLnFbV59g/viewform?usp=send_form).
