@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Partner coordination in Rwanda"
-summary: "Website to coordinate efforts across Rwanda"
+summary: "Website to coordinate international development health activities across Rwanda"
 date:   2016-06-23 23:00:00
 img: "/img/chain-demo"
 icon: "/img/chain_icon.png"
@@ -11,22 +11,17 @@ link: "https://laurahughes.shinyapps.io/Rwanda-CHAIN/"
 
 
 ### Background:
-For a client organization that has lots of different partners working across Rwanda, it becomes a challenge to
-know where everyone is working to coordinate efforts.
+I developed this product for a large international development donor organization that provides funding to numerous partners working in Rwanda. With partners working across the country, the product was intended to visualize and promote the coordination of development activities amongst partners.
 
 <br>
 
 ### Solution:
-After compiling, cleaning, and georeferencing data on partner activities, I built a customized
-[Shiny](http://shiny.rstudio.com/) dashboard. Partners are allowed to view where everyone in a
-project is working, filter based on topic area or partner, and find partners working in a similar
-topic area or region of Rwanda.
 
-<br>
+After collecting, cleaning, and georeferencing partner activity data, I built a customized [Shiny](http://shiny.rstudio.com/) dashboard to summarize coordination patterns. Users are allowed to view projects by partners, filter based on topic area or partner, and find partners working on a similar topic area or in a similar geographic area of Rwanda.
 
-These visualizations are being used a demo site for an on-going project to improve partner coordination.
-Based on user feedback, we are re-designing the website to collect data and visualize it with an improved
-user experience which allows them to analyze and prioritize collaborations.
+ <br>
+
+The visualizations are being used as a demo site for an on-going project to improve partner coordination. Based on user feedback, we are designing a platform to collect and visualize more geographically detailed data. The new site adds additional functionality allowing users to input, analyze, visualize and prioritize ongoing and future activities.
 
 <br>
 
