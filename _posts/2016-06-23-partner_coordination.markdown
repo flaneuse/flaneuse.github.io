@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Partner coordination"
+title:  "Partner coordination in Rwanda"
 summary: "Website to coordinate efforts across Rwanda"
 date:   2016-06-23 23:00:00
 categories: Stata cheatsheet
