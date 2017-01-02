@@ -9,43 +9,79 @@ layout: default
     they mean, and deciding how to visually communicate the results to others.
   </span>
 
-  <!-- Posts -->
-  <h1 class="page-heading">Recent Projects</h1>
+  <!-- Loop over projects and resources -->
+  {% assign allproj = site.projects | sort:'order', 'last' %}
+  {% assign allresource = site.resources | sort:'order', 'last' %}
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-    <li class="gallery">
-      <div class="post-title">
+  <!-- Projects -->
+  <div id="projects">
+    <h1 class="page-heading">Recent Projects</h1>
 
-        <!-- title/link -->
-        <!-- fix liquid<a class="post-tag" href="{{site.baseurl | where:'tag', 'genetics'}}"> -->
-        <div class="post-tag">{{ post.tag }}</div>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        <a class="post-sub" href="{{ post.url | prepend: site.baseurl }}">{{ post.subtitle }}</a>
+    <ul class="post-list">
+      <!-- {% assign allproj = site.projects | sort:'order', 'last' %} -->
+
+      {% for post in allproj %}
+      <li class="gallery">
+        <div class="post-title">
+
+          <!-- title/link -->
+          <!-- fix liquid<a class="post-tag" href="{{site.baseurl | where:'tag', 'genetics'}}"> -->
+          <div class="post-tag">{{ post.tag }}</div>
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+          <a class="post-sub" href="{{ post.url | prepend: site.baseurl }}">{{ post.subtitle }}</a>
+        </div>
+
+        <!-- image -->
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+          <img class="post-icon" src="{{ post.icon }}"></img> </a>
+
+          <!-- co-authors -->
+          {% if post.co-authors %}
+          <div class="post-coauthor">with {{ post.co-authors }}</div>
+          {% endif %}
+
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <!-- Resources -->
+    <div id = "resources">
+      <h1 class="page-heading">Resources</h1>
+
+      <ul class="post-list">
+        <!-- {% assign allproj = site.projects | sort:'order', 'last' %} -->
+
+        {% for post in allresource %}
+        <li class="gallery">
+          <div class="post-title">
+
+            <!-- title/link -->
+            <!-- fix liquid<a class="post-tag" href="{{site.baseurl | where:'tag', 'genetics'}}"> -->
+            <div class="post-tag">{{ post.tag }}</div>
+            <h2>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+            <a class="post-sub" href="{{ post.url | prepend: site.baseurl }}">{{ post.subtitle }}</a>
+          </div>
+
+          <!-- image -->
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+            <img class="post-icon" src="{{ post.icon }}"></img> </a>
+
+            <!-- co-authors -->
+            {% if post.co-authors %}
+            <div class="post-coauthor">with {{ post.co-authors }}</div>
+            {% endif %}
+
+          </li>
+          {% endfor %}
+        </ul>
       </div>
 
-      <!-- image -->
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-        <img class="post-icon" src="{{ post.icon }}"></img> </a>
+      <!-- RSS feed
+      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
 
-        <!-- co-authors -->
-        {% if post.co-authors %}
-        <div class="post-coauthor">with {{ post.co-authors }}</div>
-        {% endif %}
-
-      </li>
-
-
-
-      {% endfor %}
-    </ul>
-
-
-
-
-    <!-- RSS feed
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
-
-  </div>
+    </div>
