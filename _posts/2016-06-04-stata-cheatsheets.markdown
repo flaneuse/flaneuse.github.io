@@ -20,7 +20,7 @@ After cataloguing the most common functions, we organized them into six basic fu
 
 <br>
 
-### Data Processing
+#### [Data Processing](http://geocenter.github.io/StataTraining/pdf/StataCheatsheet_processing.pdf)
 
 * basic Stata syntax for all functions
 * basic math and logic operations
@@ -41,7 +41,7 @@ After cataloguing the most common functions, we organized them into six basic fu
 
 <br>
 
-### Data Transformation
+#### [Data Transformation](http://geocenter.github.io/StataTraining/pdf/StataCheatsheet_transformation.pdf)
 
   * subsetting data
     * `drop`
@@ -66,7 +66,7 @@ After cataloguing the most common functions, we organized them into six basic fu
 
 <br>
 
-### Data Visualization
+#### [Data Visualization](http://geocenter.github.io/StataTraining/pdf/StataCheatsheet_visualization1.pdf)
 * small multiples
 * one variable visualizations
   * `histogram`
@@ -103,7 +103,7 @@ After cataloguing the most common functions, we organized them into six basic fu
 
 <br>
 
-### Data Analysis
+#### [Data Analysis](http://geocenter.github.io/StataTraining/pdf/StataCheatSheet_Analysis.pdf)
 
 * declaring data as a special type
   * time series
@@ -126,7 +126,7 @@ After cataloguing the most common functions, we organized them into six basic fu
 <br>
 
 
-### Programming
+#### [Programming](http://geocenter.github.io/StataTraining/pdf/StataCheatSheet_programming_2016_June.pdf)
 
 * fundamental data types
   * scalars
