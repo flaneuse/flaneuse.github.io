@@ -3,7 +3,7 @@ layout: post
 title:  "Custom R scripts"
 subtitle: "reusable functions and snippets"
 summary: "Customized functions in the R programming language for data analysis and visualization"
-date:   2016-06-01 23:00:00
+order: 1
 tag: coding
 img: "/img/llamar"
 icon: "/img/llamar_icon.png"

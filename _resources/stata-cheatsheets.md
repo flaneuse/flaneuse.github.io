@@ -3,7 +3,7 @@ layout: post
 title:  "Stata cheat sheets"
 subtitle: "analysis and visualization"
 summary: "Cheat sheets on data wrangling, analysis, and visualization in <a href='http://www.stata.com' target='_blank'>Stata 14</a>"
-date:   2016-06-04 23:00:00
+order: 3
 tag: coding
 img: "/img/cheatsheets/"
 icon: "/img/stata_processing_icon.png"
@@ -11,7 +11,7 @@ co-authors: Tim Essam
 ---
 
 ## Background
-When teaching an intro class on Stata, we realized that there were no good reference materials on Stata. What started off as a "let's make a quick cheat sheet for the basic functions" quickly evolved into a comprehensive set of 6 cheat sheets on the common data wrangling and analysis functions within Stata.
+When teaching an [intro class on Stata]({{ site.baseurl }}/resources/stata-intro), we realized that there were no good reference materials on Stata. What started off as a "let's make a quick cheat sheet for the basic functions" quickly evolved into a comprehensive set of 6 cheat sheets on the common data wrangling and analysis functions within Stata.
 
 <br>
 

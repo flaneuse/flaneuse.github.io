@@ -10,3 +10,12 @@ linkedin_username:  lauradhughes
 
 # Build settings
 markdown: kramdown
+permalink: pretty
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+  resources:
+      output: true
+      permalink: /resources/:path/  

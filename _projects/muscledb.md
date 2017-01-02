@@ -2,7 +2,7 @@
 layout: post
 title:  "MuscleDB"
 subtitle: "gene expression database"
-date:   2016-06-25 12:00:00
+order: 1
 tag: genetics
 summary: A database of muscle tissue gene expression data
 img: "/img/muscledb.png"

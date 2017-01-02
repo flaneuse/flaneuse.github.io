@@ -4,7 +4,7 @@ title:  "Rwanda partner coordination"
 subtitle: "interactive prototype"
 tag: "international development"
 summary: "Website to coordinate international development health activities across Rwanda"
-date:   2016-06-23 23:00:00
+order: 3
 img: "/img/chain-demo"
 icon: "/img/chain_icon.png"
 link: "https://laurahughes.shinyapps.io/Rwanda-CHAIN/"
