@@ -15,11 +15,16 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
     <li class="gallery">
+      <div class="post-title">
 
-      <!-- title/link -->
-      <h2>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h2>
+        <!-- title/link -->
+        <!-- fix liquid<a class="post-tag" href="{{site.baseurl | where:'tag', 'genetics'}}"> -->
+        <div class="post-tag">{{ post.tag }}</div>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <a class="post-sub" href="{{ post.url | prepend: site.baseurl }}">{{ post.subtitle }}</a>
+      </div>
 
       <!-- image -->
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">

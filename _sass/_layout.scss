@@ -191,8 +191,8 @@
     }
   }
 
-  .gallery > h2 {
-    height: 50px;
+  .post-title {
+      height: 75px;
   }
 
 
@@ -266,9 +266,24 @@
   .post-link {
     display: block;
     font-size: $large-font-size;
+    font-weight: $bold-font-weight;
+    line-height: $base-header-height;
+  }
+
+  .post-sub {
+    display: block;
+    font-size: $base-font-size;
     font-weight: $base-font-weight;
     line-height: $base-header-height;
-    padding-bottom: 3px;
+  }
+
+  .post-tag {
+    display: block;
+    font-size: $smaller-font-size;
+    color: $grey-color-light;
+    text-transform: uppercase;
+    font-weight: $base-font-weight;
+    line-height: $base-header-height;
   }
 
 
