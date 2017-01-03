@@ -7,7 +7,7 @@ order: 5
 tag: "international development"
 img: "/img/ethiopia/"
 icon: "/img/ethiopia_icon.png"
-co-authors: Tim Essam, Patrick Gault, Brent McCusker, Jamison Conley
+co-authors: Tim Essam, Patrick Gault, Doug Johnson, Brent McCusker, Jamison Conley
 ---
 
 ### Background:
