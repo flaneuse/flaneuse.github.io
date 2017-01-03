@@ -329,9 +329,17 @@
   .post-img {
     padding-left: 2%;
     padding-top: 10px;
+    padding-bottom: 25px;
     float: right;
     width: 58%;
     overflow:hidden;
+
+    img {
+      border: 1px solid $grey-color;
+      padding: 5px;
+      position: relative;
+      width: 95%;
+    }
   }
 
 
