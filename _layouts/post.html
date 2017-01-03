@@ -19,11 +19,12 @@ layout: default
 
 
   <article>
-    <div class="post-content">
+
+    {% if page.img %}
+    <div class="post-content post-left">
       {{ content }}
     </div>
 
-    {% if page.img %}
     {% for image in site.static_files %}
     {% if image.path contains page.img %}
     <div class="post-img">
@@ -39,10 +40,17 @@ layout: default
     </a></div>
     {% endif %}
     {% endfor %}
+    <div id="return"><a href="{{ site.baseurl }}/index.html">return to portfolio</a></div>
+
+    {% else %}
+    <div class = "post-content">
+      {{ content }}
+
+      <div id="return"><a href="{{ site.baseurl }}/index.html">return to portfolio</a></div>
+    </div>
+
     {% endif %}
 
   </article>
-
-  <div id="return"><a href="{{ site.baseurl }}/index.html">return to portfolio</a></div>
 
 </div>
