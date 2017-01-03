@@ -4,7 +4,7 @@ title:  "Stata cheat sheets"
 subtitle: "analysis and visualization"
 summary: "Cheat sheets on data wrangling, analysis, and visualization in <a href='http://www.stata.com' target='_blank'>Stata 14</a>"
 order: 3
-tag: coding
+tag: Stata
 img: "/img/cheatsheets/"
 icon: "/img/stata_processing_icon.png"
 co-authors: Tim Essam

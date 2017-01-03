@@ -4,7 +4,7 @@ title:  "Custom R scripts"
 subtitle: "reusable functions and snippets"
 summary: "Customized functions in the R programming language for data analysis and visualization"
 order: 1
-tag: coding
+tag: R
 img: "/img/llamar"
 icon: "/img/llamar_icon.png"
 co-authors:
