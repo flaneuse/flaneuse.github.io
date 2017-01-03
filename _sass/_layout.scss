@@ -370,6 +370,12 @@
 
   #return {
     text-align: center;
+    a {
+      color: $accent-color-light;
+    }
+    a:visited {
+      color: $accent-color;
+    }
   }
 
 #projects, #resources {
