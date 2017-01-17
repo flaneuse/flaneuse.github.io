@@ -20,7 +20,7 @@ I've built out two R packages for use by myself and my colleagues: one focusing 
 
 <br>
 
-View available functions at http://lauradhughes.com/llamar/.
+View available functions at [llamar website](http://lauradhughes.com/llamar/).
 
 <br>
 
