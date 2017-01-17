@@ -20,6 +20,10 @@ I've built out two R packages for use by myself and my colleagues: one focusing 
 
 <br>
 
+View available functions at http://lauradhughes.com/llamar/.
+
+<br>
+
 These packages can be downloaded from github using the [`devtools`](https://www.rstudio.com/products/rpackages/devtools/) library:
 
 `install.packages('devtools')`
