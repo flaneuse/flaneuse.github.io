@@ -19,15 +19,14 @@ The [Hughes](http://openwetware.org/wiki/HughesLab) (UMSL) and [Esser](http://ww
 
 In this repository, we’re developing a web-based platform to explore, visualize, and share these data build on a [Shiny dashboard](http://shiny.rstudio.com/).
 
+* Read the [paper](https://elifesciences.org/articles/34613).
+
 * If you've noticed any technical errors or enhancements to this webpage, please [submit an issue](https://github.com/flaneuse/muscle-transcriptome/issues).
 
-* If you want to help us understand which muscle types would be most useful to you,
-please vote for your preferred tissues [here](https://docs.google.com/forms/d/1iL9V7HPm5CRekPrkrPmLciZmNWK-g09elIYLnFbV59g/viewform?usp=send_form).
-
-* If there are any compelling reasons you'd like us to consider your favorite tissues,
-please email [muscle.database@gmail.com](mailto:muscle.database@gmail.com target="_blank")
+* If you want to develop a data exploration tool similar to MuscleDB, check out our paper on [ExpressionDB](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0187457).
 
 <br>
 
-<h3>Citing MuscleDB</h3>
-Anyone is welcome to freely use and adapt both the raw data as well as the [Shiny](shiny.rstudio.com) code used to generate the site and data visualizations under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/2.0/). We do ask that you cite **MuscleDB by Laura D. Hughes, Karyn Esser, and Michael E. Hughes**.
+<h3>Adapting MuscleDB</h3>
+Anyone is welcome to freely use and adapt both the raw data as well as the [Shiny](shiny.rstudio.com) code used to generate the site and data visualizations under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/2.0/). We do ask that you cite **ExpressionDB: An open source platform for distributing genome-scale datasets.
+Laura D. Hughes, Scott A. Lewis, Michael E. Hughes, [PLOS One](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0187457), 2017**.
