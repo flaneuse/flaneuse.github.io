@@ -11,4 +11,4 @@ link: "https://geocenter.github.io/resources/pdf/Data%20Visualization%20Process.
 ---
 
 ### Background:
-During intro visualization classes as well as during initial consultation meetings, I often find people wanting to jump straight into creating something in software without considering what, for whom, and _why_ they want to create a visualization. To help break down the components of my process, I created a highly idealized (and non-loopy) version of the questions I consider when creating a visualization.
+During intro visualization classes as well as during initial consultation meetings, I often find people want to jump straight into creating something in software without considering what, for whom, and _why_ they want to create a visualization. To help break down the components of my process, I created a highly idealized (and non-loopy) version of the questions I consider when creating a visualization.

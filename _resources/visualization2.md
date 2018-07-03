@@ -11,4 +11,4 @@ link: "https://geocenter.github.io/resources/pdf/Takeaways%20for%20Good%20Visual
 ---
 
 ### Background:
-Summary chart for visualization classes of common mistakes and misconceptions about data visualization.
+Summary chart of best practices in data visualization for visualization classes.
