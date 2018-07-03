@@ -3,7 +3,7 @@ layout: post
 title:  "Haiti"
 subtitle: "water and sanitation access"
 summary: "Summary of household-level access to improved drinking water and sanitation"
-order: 4
+order: 5
 tag: "international development"
 img: "/img/haiti/"
 icon: "/img/haiti_icon.png"

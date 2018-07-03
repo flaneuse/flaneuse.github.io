@@ -3,7 +3,7 @@ layout: post
 title:  "Resources & Pinterest gallery"
 subtitle: "things I've found useful and inspiring"
 summary: "Customized functions in the R programming language for data analysis and visualization"
-order: 4
+order: 6
 tag: "data science"
 icon: "/img/pinterest_icon.png"
 img: "/img/pinterest_icon.png"

@@ -3,7 +3,7 @@ layout: post
 title:  "Bangladesh"
 subtitle: "household and program analysis"
 summary: "Analysis of household-level data about Bangladesh"
-order: 2
+order: 3
 tag: "international development"
 img: "/img/bangladesh/"
 icon: "/img/bangladesh_icon.png"

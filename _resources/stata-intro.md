@@ -3,7 +3,7 @@ layout: post
 title:  "Intro to Stata course"
 subtitle: "analysis and visualization in Stata"
 summary: "Lectures, exercises, and resources on data wrangling, analysis, and visualization in <a href='http://www.stata.com' target='_blank'>Stata 14</a>"
-order: 2
+order: 4
 tag: Stata
 icon: "/img/stata_icon.png"
 co-authors: "Tim Essam, Aaron Chafetz, Doug Johnson"

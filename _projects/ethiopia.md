@@ -3,7 +3,7 @@ layout: post
 title:  "Ethiopia"
 subtitle: "household and program analysis"
 summary: "Analysis of household-level data about Ethiopia"
-order: 5
+order: 6
 tag: "international development"
 img: "/img/ethiopia/"
 icon: "/img/ethiopia_icon.png"

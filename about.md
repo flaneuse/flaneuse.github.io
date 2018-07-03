@@ -9,8 +9,9 @@ Personal portfolio of Laura D. Hughes.  All work is my own, except for where col
 <br>
 
 #### Frequent Collaborators
+* [Su lab](http://sulab.org/) (The Scripps Research Institute)
 * [Tim Essam](https://www.linkedin.com/in/timessam)
-* [Michael E. Hughes lab](http://openwetware.org/wiki/HughesLab) (UMSL)
+* [Michael E. Hughes lab](http://openwetware.org/wiki/HughesLab) (Washington University in St. Louis)
 * [Karyn Esser lab](http://www.uky.edu/~kaesse2/lab_web_7_2007/SMBL/) (Univ. of Kentucky School of Medicine)
 
 <br>
