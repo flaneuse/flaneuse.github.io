@@ -9,7 +9,9 @@ Personal portfolio of Laura D. Hughes.  All work is my own, except for where col
 <br>
 
 #### Frequent Collaborators
-* [Su lab](http://sulab.org/) (The Scripps Research Institute)
+* [Su lab](http://sulab.org/) (Scripps Research Institute)
+* [Andersen lab](https://andersen-lab.com/) (Scripps Research Institute) and the [Center for Viral Systems Biology](https://cvisb.org/)
+* [Chunlei Wu lab](https://wulab.io/) (Scripps Research)
 * [Tim Essam](https://www.linkedin.com/in/timessam)
 * [Michael E. Hughes lab](http://openwetware.org/wiki/HughesLab) (Washington University in St. Louis)
 * [Karyn Esser lab](http://www.uky.edu/~kaesse2/lab_web_7_2007/SMBL/) (Univ. of Kentucky School of Medicine)
