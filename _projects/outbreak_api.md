@@ -1,27 +1,22 @@
 ---
 layout: post
-title:  "outbreak.info"
-subtitle: "Variant surveillance reports & a searchable research library"
-summary: "Tools to explore COVID-19 and SARS-CoV-2 data with variant surveillance reports, data on cases and deaths, and a standardized, searchable research library"
-order: -4
+title:  "outbreak.info API"
+subtitle: "API of COVID-19 cases/deaths data & research metadata"
+summary: "API to access COVID-19 cases and deaths and COVID-19 and SARS-CoV-2 research metadata from outbreak.info"
+order: -2
 tag: "infectious diseases"
-img: "/img/outbreak/"
-icon: "/img/outbreak/outbreak_icon.png"
+img: "/img/outbreak-api/"
+icon: "/img/outbreak-api/outbreak_api.png"
 co-authors: the outbreak.info team
 ---
 
 ### About the project:
-In response to the current outbreak of SARS-CoV-2 (the virus that causes COVID-19), researchers worldwide have been generating and openly sharing data, publications, reagents, code, protocols, and more. Broad sharing of these resources improves the speed and efficiency of science. Unfortunately, there are no uniform standards and repositories for collecting all this information in one place.
-<br/>
-Outbreak.info aggregates data across scientific sources, providing tools to meet three major aims:
-* Track daily developments in SARS-CoV-2 variants
-* Integrate publications, preprints, clinical trials, datasets, protocols, and other resources into one searchable library of COVID-19 research
-* Track trends in COVID-19 cases and deaths
+outbreak.info tracks daily developments in SARS-CoV-2 variants, COVID-19 cases and deaths, and emerging research (including publications, clinical trials, datasets, and more). This API provides data access to the COVID-19 cases and deaths data and research metadata standardized by outbreak.info.
 
 <br/>
 
 ### View the project
-[outbreak.info](https://outbreak.info)
+[api.outbreak.info](https://api.outbreak.info/)
 
 <br/>
 
@@ -40,4 +35,4 @@ Data sources can be viewed on [outbreak.info](https://outbreak.info/sources).
 <br/>
 
 ### Code
-[github.com/outbreak-info](https://github.com/outbreak-info)
+[github.com/outbreak-info/outbreak.api](https://github.com/outbreak-info/outbreak.api)
