@@ -8,7 +8,7 @@ order: 1
 img: "/img/rwanda/"
 icon: "/img/rwanda/10-rwanda.png"
 co-authors: Tim Essam and Baboyma Kagniniwa
-link: "http://devgeocenter.org/rwanda-results/?page=home"
+link: "https://github.com/flaneuse/Rwanda-results"
 ---
 
 
@@ -20,8 +20,8 @@ Rwanda is the most densely populated country in Africa, with a population of nea
 
 ### Solution:
 
-I worked with colleagues to understand the drivers of fertility rates and malnutrition in Rwanda so the U.S. Agency for International Development field office could better design programs. To communicate the results of our analysis, I built a [scrollytelling website](http://devgeocenter.org/rwanda-results/?page=home) in D3, Bootstrap, Javascript, HTML, and CSS highlighting key insights. The Rwanda office is currently using this analysis/website to redesign both a key family planning program and their nutrition/agriculture portfolio, as well as using the website as the basis for discussions with the Government of Rwanda.
+I worked with colleagues to understand the drivers of fertility rates and malnutrition in Rwanda so the U.S. Agency for International Development field office could better design programs. To communicate the results of our analysis, I built a scrollytelling website in D3, Bootstrap, Javascript, HTML, and CSS highlighting key insights. The Rwanda office is currently using this analysis/website to redesign both a key family planning program and their nutrition/agriculture portfolio, as well as using the website as the basis for discussions with the Government of Rwanda.
 
 <br>
 
-View the [site](http://devgeocenter.org/rwanda-results/?page=home)
+View the [code](https://github.com/flaneuse/Rwanda-results)
