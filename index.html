@@ -18,6 +18,7 @@ layout: default
   <!-- Loop over projects and resources -->
   {% assign allproj = site.projects | sort:'order', 'last' %}
   {% assign allresource = site.resources | sort:'order', 'last' %}
+  {% assign allpersonal = site.personal | sort:'order', 'last' %}
 
   <!-- Projects -->
   <div id="projects">
@@ -52,6 +53,36 @@ layout: default
         {% endfor %}
       </ul>
     </div>
+
+    <!-- Personal Projects -->
+    <div id = "personal">
+      <h1 class="page-heading">Personal Projects</h1>
+      <p>Random, mostly unfinished projects I've worked on as side projects<p>
+
+      <ul class="post-list">
+
+        {% for post in allpersonal %}
+        <li class="gallery">
+          <div class="post-title">
+
+            <!-- title/link -->
+            <div class="post-tag">{{ post.tag }}</div>
+            <h2>
+              <a class="post-link" href="{{ post.link | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+            <a class="post-sub" href="{{ post.link | prepend: site.baseurl }}">{{ post.subtitle }}</a>
+          </div>
+
+          <!-- image -->
+          <a class="post-link" href="{{ post.link | prepend: site.baseurl }}">
+            <img class="post-icon personal" src="{{ post.icon }}"></img> </a>
+
+
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+
 
     <!-- Resources -->
     <div id = "resources">

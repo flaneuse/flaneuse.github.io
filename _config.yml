@@ -18,4 +18,7 @@ collections:
     permalink: /projects/:path/
   resources:
       output: true
-      permalink: /resources/:path/  
+      permalink: /resources/:path/
+  personal:
+      output: true
+      permalink: /personal/:path/  
